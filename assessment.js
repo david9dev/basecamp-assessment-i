@@ -1,7 +1,7 @@
 // #1 create a variable called 'myName' and assign it to your name as a string
 
 // CODE HERE
-var myName = "David Wells";
+var myName = "David";
 
 // #2 create a variable called 'faveNum' and assign it to your favorite number
 
@@ -16,6 +16,8 @@ var lovesCode = true;
 // #4 Using the previously created variables, create a new variable called 'me' that uses the myName and faveNum varible to create a sentence like this 'My name is Bryan and my favorite number is 3'
 
 // CODE HERE
+var me = "Hi, my name is " + myName + " and I like the number " + faveNum + ".";
+
 
 // #5 Using the previously created faveNum variable, create a new variable called 'trueFaveNum'. *trueFaveNum* should equal true when comparing faveNum to your favorite number.v // HINT: Use a comparison operator
 
