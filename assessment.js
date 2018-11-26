@@ -6,6 +6,7 @@ var myName = "David Wells";
 // #2 create a variable called 'faveNum' and assign it to your favorite number
 
 // CODE HERE
+var faveNum = 24;
 
 // #3 create a variable called 'lovesCode' and set it to true
 
