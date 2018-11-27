@@ -39,6 +39,13 @@ if(notHakeem === myName)
 var age = 18;
 var canDrive;
 
+if (age > 16){
+  canDrive = true;
+}
+else{
+  canDrive = false;
+}
+
 
 // CODE HERE
 
