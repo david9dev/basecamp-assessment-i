@@ -27,6 +27,16 @@ var trueFaveNum = faveNum;
 // #6 Create a new variable called notHakeem. Using the previously created myName variable, test that your name DOES NOT equal the string 'Hakeem Olajuwon'. If your name does happen to be Hakeem Olajuwon, test against 'Karl Malone'
 
 // CODE HERE
+var notHakeem = "Hakeem Olajuwon";
+if(notHakeem === myName)
+{
+  console.log("your name is Hakeem Olajuwon");
+}
+
+else(myName === "Karl Malone")
+{
+  console.log("your name is Karl Malone");
+}
 
 // #7 Create an if statement that checks the age variable below. If age is greater than 16, then set canDrive to true otherwise set canDrive to false. The canDrive variable will be set by the unit test so do not adjust it.
 var age = 18;
