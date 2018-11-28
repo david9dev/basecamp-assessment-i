@@ -80,3 +80,10 @@ var sum = function(param)
 // #10 Create a function called 'greeter' that takes in two parameters, name and number. Have 'greeter' return a string that says something like this 'Hi! I am Bryan and I am 28 years old" but with the appropriate values..
 
 // CODE HERE
+var greeter = function(name, number)
+{
+  var greeting;
+  greeting = "Hi! I am "+ name + " and I am " + number + " years old";
+
+  return greeting;
+}
